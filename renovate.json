@@ -3,6 +3,8 @@
   "extends": [
     "config:base"
   ],
+  "branchConcurrentLimit": 20,
+  "prConcurrentLimit": 20,
   "rebaseWhen": "conflicted",
   "rebaseLabel": "rebase",
   "packageRules": [
@@ -31,6 +33,6 @@
     }
   ],
   "labels": [
-    "dependencies", "renovate"
+    "dependencies", "renovate", "automerge"
   ]
 }
