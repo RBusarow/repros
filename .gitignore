@@ -1,0 +1,34 @@
+### Idea ###
+.idea/
+*.iml
+vcs.xml
+
+## Android Studio
+local.properties
+.navigation/
+captures/
+
+## keep .idea sub-directories
+!/.idea/codeStyles/
+!/.idea/copyright/
+!/.idea/runConfigurations/
+!/.idea/inspectionProfiles/
+
+## keep .idea plugin configs
+!.idea/detekt.xml
+!.idea/ktlint.xml
+
+### compiled artifact files
+*.apk
+*.aar
+*.ap_
+*.aab
+*.dex
+*.class
+
+### Generated files
+bin/
+out/
+build/
+.gradle/
+*.log

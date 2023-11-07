@@ -1,0 +1,36 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "rebaseWhen": "conflicted",
+  "rebaseLabel": "rebase",
+  "packageRules": [
+    {
+      "groupName": "Kotlin and compiler plugins",
+      "matchPackagePatterns": [
+        "^org\\.jetbrains\\.kotlin:(?:[\\w-]+)$",
+        "^com\\.google\\.devtools\\.ksp:(?:[\\w-]+)$",
+        "^com\\.square\\.anvil:(?:[\\w-]+)$",
+        "^dev\\.drewhamilton\\.poko:(?:[\\w-]+)$"
+      ]
+    },
+    {
+      "groupName": "KtLint things",
+      "matchPackagePatterns": [
+        "^com\\.pinterest\\.ktlint:(?:[\\w-]+)$",
+        "^com\\.rickbusarow\\.ktlint:(?:[\\w-]+)$",
+        "^com\\.rickbusarow\\.ktrules:(?:[\\w-]+)$"
+      ]
+    },
+    {
+      "groupName": "All updated deps",
+      "matchPackagePatterns": [
+        "^[\\w\\.]+:[\\w-]+$"
+      ]
+    }
+  ],
+  "labels": [
+    "dependencies", "renovate"
+  ]
+}
