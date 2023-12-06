@@ -1,6 +1,6 @@
 @file:Suppress("UnstableApiUsage")
 
-rootProject.name = "samples"
+rootProject.name = "intermediate-one"
 
 pluginManagement {
   repositories {
@@ -9,6 +9,11 @@ pluginManagement {
   }
   includeBuild("../build-logic")
   includeBuild("..")
+  includeBuild("../intermediate-two")
+}
+
+plugins {
+  id("build-settings")
 }
 
 dependencyResolutionManagement {
@@ -16,16 +21,11 @@ dependencyResolutionManagement {
   rulesMode.set(RulesMode.FAIL_ON_PROJECT_RULES)
   repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 
-  versionCatalogs {
-    register("libs") {
-      from(files("../gradle/libs.versions.toml"))
-    }
-  }
-
   repositories {
     mavenCentral()
     google()
   }
 }
 
-include(":sample-lib")
+include(":intermediate-one-lib")
+// includeBuild("../intermediate-two")

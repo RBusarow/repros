@@ -36,7 +36,7 @@ google-auto-common = "1.2.2"
 google-auto-service = "1.1.1"
 google-accompanist = "0.18.0"
 google-dagger = "2.49"
-google-guava = "31.1-jre"
+google-guava = "32.1.2-jre"
 google-material = "1.4.0"
 gradle-plugin-publish = "1.2.1"
 graphviz = "0.18.1"
@@ -158,6 +158,8 @@ google-auto-service-processor = { module = "com.google.auto.service:auto-service
 
 google-dagger-api = { module = "com.google.dagger:dagger", version.ref = "google-dagger" }
 google-dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "google-dagger" }
+
+google-guava = { module = "com.google.guava:guava", version.ref = "google-guava" }
 
 google-ksp = { module = "com.google.devtools.ksp:symbol-processing-gradle-plugin", version.ref = "google-ksp" }
 

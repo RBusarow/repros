@@ -1,15 +1,14 @@
 @file:Suppress("UnstableApiUsage")
 
-rootProject.name = "repros"
+rootProject.name = "intermediate-two"
 
 pluginManagement {
   repositories {
     mavenCentral()
     gradlePluginPortal()
   }
-  includeBuild("build-logic")
-  includeBuild("intermediate-one")
-  includeBuild("intermediate-two")
+  includeBuild("../build-logic")
+  includeBuild("..")
 }
 
 plugins {
@@ -27,4 +26,4 @@ dependencyResolutionManagement {
   }
 }
 
-include(":lib")
+include(":intermediate-two-lib")

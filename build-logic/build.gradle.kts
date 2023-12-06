@@ -3,11 +3,19 @@ plugins {
   `java-gradle-plugin`
 }
 
+dependencies {
+  api(libs.google.guava)
+}
+
 gradlePlugin {
   plugins {
     register("build-plugin") {
-      id = "build"
+      id = "build-plugin"
       implementationClass = "builds.BuildPlugin"
+    }
+    register("build-settings") {
+      id = "build-settings"
+      implementationClass = "builds.SettingsPlugin"
     }
   }
 }
