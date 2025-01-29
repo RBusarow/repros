@@ -6,7 +6,7 @@ jvmTarget = "11"
 kotlinApi = "1.7"
 
 kotlin = "1.9.25"
-google-ksp = "2.1.0-1.0.29"
+google-ksp = "2.1.10-1.0.29"
 square-anvil = "2.5.1"
 
 ajalt-clikt = "4.4.0"
