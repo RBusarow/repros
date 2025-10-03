@@ -7,7 +7,7 @@ kotlinApi = "1.7"
 
 kotlin = "1.9.25"
 google-ksp = "2.2.20-2.0.3"
-square-anvil = "2.6.1"
+square-anvil = "2.7.0"
 
 ajalt-clikt = "4.4.0"
 ajalt-mordant = "2.7.2"
