@@ -6,7 +6,7 @@ jvmTarget = "11"
 kotlinApi = "1.7"
 
 kotlin = "1.9.25"
-google-ksp = "2.2.20-2.0.3"
+google-ksp = "2.2.20-2.0.4"
 square-anvil = "2.7.0"
 
 ajalt-clikt = "4.4.0"
@@ -19,7 +19,7 @@ autoManifest = "2.0"
 
 benManes-caffeine = "3.2.2"
 benManes-versions = "0.53.0"
-buildconfig = "5.6.8"
+buildconfig = "5.7.0"
 changeTracker = "0.7.4"
 classgraph = "4.8.181"
 commons-io = "2.20.0"
