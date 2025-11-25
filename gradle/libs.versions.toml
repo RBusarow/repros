@@ -19,7 +19,7 @@ autoManifest = "2.0"
 
 benManes-caffeine = "3.2.3"
 benManes-versions = "0.53.0"
-buildconfig = "6.0.3"
+buildconfig = "6.0.4"
 changeTracker = "0.7.4"
 classgraph = "4.8.184"
 commons-io = "2.21.0"
