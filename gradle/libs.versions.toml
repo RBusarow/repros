@@ -5,7 +5,7 @@ jdk = "17"
 jvmTarget = "11"
 kotlinApi = "1.7"
 
-kotlin = "1.9.25"
+kotlin = "2.3.0"
 google-ksp = "2.3.5"
 square-anvil = "2.7.0"
 
